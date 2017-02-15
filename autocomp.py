@@ -60,10 +60,20 @@ def _video_meets_criteria(info):
     return True
 
 # Youtube object keys
-# dict_keys(['uploader_url', 'dislike_count', 'playlist', 'duration', 'format', 'view_count', 'series', 'extractor_key', 'description', 'filesize', 'title', 'episode_number', 'formats', 'like_count', 'ext', 'tbr', 'playlist_index', 'url', 'season_number', 'tags', 'display_id', 'id', 'average_rating', 'automatic_captions', 'webpage_url_basename', 'start_time', 'extractor', 'preference', 'age_limit', 'protocol', 'end_time', 'abr', 'thumbnail', 'annotations', 'uploader', 'requested_subtitles', 'http_headers', 'license', 'acodec', 'creator', 'uploader_id', 'vcodec', 'categories', 'thumbnails', 'subtitles', 'format_id', 'alt_title', 'webpage_url', 'format_note', 'is_live', 'player_url', 'upload_date'])
+# dict_keys(['uploader_url', 'dislike_count', 'playlist', 'duration', 'format',
+ # 'view_count', 'series', 'extractor_key', 'description', 'filesize', 'title',
+ #  'episode_number', 'formats', 'like_count', 'ext', 'tbr', 'playlist_index', 'url',
+ #   'season_number', 'tags', 'display_id', 'id', 'average_rating', 'automatic_captions', 'webpage_url_basename', 'start_time', 'extractor',
+ #    'preference', 'age_limit', 'protocol', 'end_time', 'abr', 'thumbnail',
+ #     'annotations', 'uploader', 'requested_subtitles', 'http_headers', 'license',
+ #      'acodec', 'creator', 'uploader_id', 'vcodec', 'categories', 'thumbnails',
+ #       'subtitles', 'format_id', 'alt_title', 'webpage_url', 'format_note', 'is_live',
+ #        'player_url', 'upload_date'])
 #
 # Twitch object keys
-# dict_keys(['webpage_url_basename', 'playlist', 'extractor', 'id', 'extractor_key', 'uploader', 'http_headers', 'title', 'thumbnail', 'height', 'thumbnails', 'requested_subtitles', 'protocol', 'formats', 'ext', 'uploader_id', 'format', 'creator', 'playlist_index', 'format_id', 'display_id', 'url', 'webpage_url'])
+# dict_keys(['webpage_url_basename', 'playlist', 'extractor', 'id', 'extractor_key',
+ # 'uploader', 'http_headers', 'title', 'thumbnail', 'height', 'thumbnails', 'requested_subtitles', 'protocol', 'formats', 'ext', 'uploader_id', 'format',
+ #  'creator', 'playlist_index', 'format_id', 'display_id', 'url', 'webpage_url'])
 
 def download(vod_urls, savedir='./'):
     """ Download the vids in the iterable, vod_urls, to the filesystem """
