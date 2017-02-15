@@ -5,6 +5,7 @@ __pycache__/
 
 .DS_Store
 
+todo.txt
 config.py
 
 lib/
