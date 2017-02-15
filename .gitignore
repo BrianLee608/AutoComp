@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+config.py
+
+lib/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ignore all video extensions
+*.mp4
+*.mkv
+*.flv
+*.gif
+*.avi
+*.mov
+*.wmv
+*.m4p
+*.m4v
+*.mpg
+*.mpeg
+*.mpv
+*.m4v
+*.m2v
+
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
