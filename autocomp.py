@@ -8,11 +8,11 @@ import re
 import youtube_dl
 
 # register with Reddit as script app
-reddit = praw.Reddit(client_id = client_id,
-                     client_secret = client_secret,
-                     password = password,
-                     user_agent = user_agent,
-                     username = username)
+reddit = praw.Reddit(client_id = reddit_client_id,
+                     client_secret = reddit_client_secret,
+                     password = reddit_password,
+                     user_agent = reddit_user_agent,
+                     username = reddit_username)
 
 yt_re = re.compile('^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$')
 twitch_re = re.compile('^(https?\:\/\/)?(clips.twitch.tv)\/\w+\/.+')
