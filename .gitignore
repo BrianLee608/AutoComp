@@ -35,6 +35,7 @@ pip-delete-this-directory.txt
 *.mpv
 *.m4v
 *.m2v
+*.mp3
 
 .env
 
