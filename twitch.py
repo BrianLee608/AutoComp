@@ -30,6 +30,10 @@ class Twitch:
         r = self._get('channels/' + str(channel))
         return r.json()
 
+    def get_stream(self, channel):
+        r = self._get('streams/' + str(channel))
+        return r.json()
+
     def get_live_streams(self, game=None, **kwargs):
         r = self._get('streams/', **kwargs).json()
         streams = r['streams']
@@ -39,6 +43,9 @@ class Twitch:
         # channel must be live and at least 300 viewers
         return stream['channel']['status'] and stream['viewers'] >= 300
         return True
+
+    def get_viewers(self, channel):
+        return self.get_stream(channel)['stream']['viewers']
 
 t = Twitch()
 # r = t.get_live_streams(game='Counter-Strike: Global Offensive', limit=2)

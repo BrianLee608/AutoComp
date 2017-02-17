@@ -1,7 +1,8 @@
 from config import twitch_cfg
 import socket
+from twitch import Twitch
 
-def join_room(s):
+def read_join_greeting(s):
 	readbuffer = ""
 	loading = True
 	while loading:
@@ -46,8 +47,11 @@ class ChatListener:
 			s.send(("NICK " + twitch_cfg['IDENT'] + "\r\n").encode())
 			s.send(("JOIN " + '#adren_tv' + "\r\n").encode())
 
-			join_room(s)
+			read_join_greeting(s)
 			readbuffer = ""
+
+			t = Twitch()
+			num_viewers = t.get_viewers('adren_tv')
 
 			while True:
 				readbuffer += str(s.recv(1024), 'utf-8')
