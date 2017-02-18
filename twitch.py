@@ -47,8 +47,8 @@ class Twitch:
     def get_viewers(self, channel):
         return self.get_stream(channel)['stream']['viewers']
 
-t = Twitch()
-# r = t.get_live_streams(game='Counter-Strike: Global Offensive', limit=2)
-r = t.get_channel('dreamhackcs')
-
-print(r)
+# t = Twitch()
+# # r = t.get_live_streams(game='Counter-Strike: Global Offensive', limit=2)
+# r = t.get_channel('dreamhackcs')
+#
+# print(r)

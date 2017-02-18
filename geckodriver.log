@@ -1,0 +1,30 @@
+1487396113552	geckodriver	INFO	Listening on 127.0.0.1:57291
+1487396113699	mozprofile::profile	INFO	Using profile path /var/folders/d1/tfs7mxy1735855sqlj8qr6k00000gn/T/rust_mozprofile.weEtcu8OSD8W
+1487396113700	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487396113764	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57301
+1487396114874	Marionette	INFO	Listening on port 57301
+1487396177185	geckodriver	INFO	Listening on 127.0.0.1:57356
+1487396178223	mozprofile::profile	INFO	Using profile path /var/folders/d1/tfs7mxy1735855sqlj8qr6k00000gn/T/rust_mozprofile.kUscY50prRca
+1487396178224	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487396178227	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57369
+1487396178960	Marionette	INFO	Listening on port 57369
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1487397491214	geckodriver	INFO	Listening on 127.0.0.1:58927
+1487397492241	mozprofile::profile	INFO	Using profile path /var/folders/d1/tfs7mxy1735855sqlj8qr6k00000gn/T/rust_mozprofile.M78Vwgk3YwSh
+1487397492243	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487397492246	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58940
+1487397493178	Marionette	INFO	Listening on port 58940
+JavaScript warning: https://cvp.twitch.tv/1.3.5/player-core-min.js, line 7: TypeError: asm.js type error: double is not a subtype of int
+Vector smash protection is enabled.
+1487397559039	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
