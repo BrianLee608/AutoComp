@@ -64,5 +64,7 @@ class ChatListener:
 						s.send(line.replace("PING", "PONG").encode('utf-8'))
 						break
 
+# todo: look into greasemonkey augmented browsing library
+# tampermonkey for chrome
 c = ChatListener('#adren_tv')
 c.execute()
